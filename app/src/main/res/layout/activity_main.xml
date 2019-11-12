@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#BD14DA"
+    tools:context=".MainActivity">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="532dp"
+            android:layout_marginRight="530dp"
+            android:layout_marginBottom="889dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="70dp"
+            tools:layout_conversion_absoluteWidth="48dp"
+            tools:visibility="visible"
+            tools:ignore="RtlHardcoded" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="29dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="875dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/spinner2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="70dp"
+            tools:layout_conversion_absoluteWidth="48dp"
+            tools:visibility="visible"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="552dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/text_view_border"
+            android:ems="10"
+            android:hint="@string/type_here"
+            android:inputType="textShortMessage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.681"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.393"
+            tools:ignore="RtlHardcoded"
+            tools:targetApi="o"
+            android:autofillHints=""
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="254dp"
+            android:layout_marginLeft="254dp"
+            android:layout_marginTop="282dp"
+            android:layout_marginEnd="237dp"
+            android:layout_marginRight="237dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_border"
+            android:text="@string/translate"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="533dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/text_view_border"
+            android:hint="@string/view_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/Button_speak"
+            android:layout_width="wrap_content"
+            android:layout_height="81dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="750dp"
+            android:layout_marginEnd="256dp"
+            android:background="@drawable/button_border"
+            android:text="@string/speak"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+
+    <string name="type_here">Type Here</string>
+    <string name="translate">Translate</string>
+    <string name="view_text">View text</string>
+    <string name="speak">speak</string>
+
+</resources>
